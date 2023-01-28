@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+html body {
+   background-image:  url("background-pattern-scaled.jpg");
+}
+
+div#container {
+     background-image: none;
+}
+
+h1, h2{
+    font-family: "Josefin Sans" !important;
+    color: red !important;
+}
+
+h2{
+    color: black !important;
+}
